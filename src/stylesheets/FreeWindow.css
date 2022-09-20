@@ -1,7 +1,9 @@
 .FreeWindow--container{
     display: flexbox;
     align-items: center;
-    border: 2px solid red;
+    border: 2px solid rgba(181, 62, 220, .8);
+    box-shadow: inset .2em .2em .3em rgba(157, 60, 193, 0.896), 
+        inset .3em .6em .6em rgb(125, 63, 149);
     margin: 0 10px;
 }
 

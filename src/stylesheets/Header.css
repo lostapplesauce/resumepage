@@ -5,13 +5,30 @@
     
 }
 
-header > h1{
+.header--nameAndimageDiv{
+    margin: auto;
+    margin-left: 1em;
+    color: white;
+}
+
+.header--bAndWTroy{
+    height: 13em;
+    width: 10em;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.header--name{
     letter-spacing: .1em;
     margin: 2rem;
-    margin-right: auto;
     color: rgba(255, 255, 255, 0.738);
     text-shadow: .3em .2em .1em rgba(25,25,25, 0.5);
 }
+
+.header--infoDiv{
+    margin-left: 2em;
+}
+
 header > div > h3{
     letter-spacing: -.05em;
     margin: 2rem;

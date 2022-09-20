@@ -5,15 +5,15 @@
 
 @keyframes blink {
     0% { box-shadow: 0em .0em .7em rgb(221, 63, 238); }
-    50% { box-shadow: none; }
-    50% { box-shadow: none; }
+    25% { box-shadow: none; }
+    /* 50% { box-shadow: none; } */
     100% { box-shadow: 0em .0em 1em rgb(215, 18, 237); }
 }
 
 @-webkit-keyframes blink {
     0% { box-shadow: 0em .0em .7em rgb(221, 63, 238); }
     25% { box-shadow: 0 0 0; }
-    50% { box-shadow: 0 0 0; }
+    /* 50% { box-shadow: 0 0 0; } */
     100% { box-shadow: 0em .0em 1em rgb(215, 18, 237); }
 }
 
@@ -29,11 +29,11 @@
     color: rgb(182, 64, 228);
     text-shadow: .5em .3em .4em rgba(25,25,25, 0.5);
     
-    -webkit-animation: blink 5.0s linear infinite;
-    -moz-animation: blink 5.0s linear infinite;
-    -ms-animation: blink 5.0s linear infinite;
-    -o-animation: blink 5.0s linear infinite;
-    animation: blink 5.0s linear infinite;
+    -webkit-animation: blink 3.0s linear infinite;
+    -moz-animation: blink 3.0s linear infinite;
+    -ms-animation: blink 3.0s linear infinite;
+    -o-animation: blink 3.0s linear infinite;
+    animation: blink 3.0s linear infinite;
 }
 
 .profile--title::after{
