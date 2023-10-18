@@ -18,7 +18,7 @@ export default function Header() {
         <h1 className="header--name">Troy Turner</h1>
         </div>
         <div className="header--infoDiv">
-          <h3>mobile: 077 470 71417</h3>
+          <h3>mobile: 073 549 18485</h3>
           <h3 className="email">email: troyturner444@gmail.com</h3>
           <div className="header--timeContainer">
             <p className="time--text">The locale time is:</p>
